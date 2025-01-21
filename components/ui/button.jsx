@@ -5,25 +5,20 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-[16px_4px] text-base text-primary font-medium ring-offset-white transition-colors",
   {
     variants: {
       variant: {
-        default: "bg-button text-slate-50 hover:bg-button-hover dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-50/90",
-        destructive:
-          "bg-red-500 text-slate-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-slate-50 dark:hover:bg-red-900/90",
-        outline:
-          "border border-slate-200 bg-white hover:bg-slate-100 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-950 dark:hover:bg-slate-800 dark:hover:text-slate-50",
-        secondary:
-          "bg-slate-100 text-slate-900 hover:bg-slate-100/80 dark:bg-slate-800 dark:text-slate-50 dark:hover:bg-slate-800/80",
-        ghost: "hover:bg-slate-100 hover:text-slate-900 dark:hover:bg-slate-800 dark:hover:text-slate-50",
-        link: "text-slate-900 underline-offset-4 hover:underline dark:text-slate-50",
+        default: "bg-button-alternative hover:bg-button-hover",
+        primary: "bg-button hover:bg-button-hover",
+        secundary: "bg-button-hover hover:bg-button",
+        outline: "border border-button-alternative bg-transparent text-button-alternative hover:bg-button-alternative hover:text-primary",
       },
       size: {
-        default: "h-10 px-4 py-2",
-        sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
-        icon: "h-10 w-10",
+        default: "h-[44px] px-6",
+        sm: "h-[48px] px-6",
+        lg: "h-[56px] px-8 text-sm font-bold uppercase tracking-[2px]",
+        icon: "h-[32px] w-[40px] text-lg",
       },
     },
     defaultVariants: {
@@ -39,7 +34,6 @@ const Button = React.forwardRef(({ className, variant, size, asChild = false, ..
     (<Comp
       className={cn(
         buttonVariants({ variant, size, className }),
-        "rounded-[16px_4px]"
       )}
       ref={ref}
       {...props} />)

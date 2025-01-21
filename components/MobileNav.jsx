@@ -37,7 +37,7 @@ const MobileNav = () => {
   const pathname = usePathname();
   return <Sheet>
     <SheetTrigger className="flex justify-center items-center">
-      <IoMenu className="text-[32px] text-accent" />
+      <IoMenu className="text-[32px] text-button-alternative" />
     </SheetTrigger>
     <SheetContent className="flex flex-col">
       <DialogTitle className="sr-only">Menu de navegação</DialogTitle>
