@@ -35,6 +35,11 @@ const config = {
 					light: "#EEEEEC", // Alabaster
 					highlight: "#E2CBAC", // Sand
 				},
+				button: {
+					DEFAULT: "#E2CBAC", // Sand
+					hover: "#FFBA43", // Saffron
+					alternative: "#3B7644", // Fern Green
+				},
 			},
 			borderRadius: {
 				sm: "4px",
