@@ -1,3 +1,9 @@
-export default function Home() {
-  return <main>homepage</main>;
+import BannerHome from "@/components/home/BannerHome";
+
+const Home = () => {
+  return (
+    <BannerHome />
+  )
 }
+
+export default Home;

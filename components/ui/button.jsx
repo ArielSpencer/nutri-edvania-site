@@ -9,16 +9,16 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-button-alternative hover:bg-button-hover",
-        primary: "bg-button hover:bg-button-hover",
-        secundary: "bg-button-hover hover:bg-button",
+        default: "bg-button-alternative hover:bg-button-hover", // Fern Green
+        primary: "bg-button hover:bg-button-hover", // Sand
+        secundary: "bg-button-hover hover:bg-button", // Saffron
         outline: "border border-button-alternative bg-transparent text-button-alternative hover:bg-button-alternative hover:text-primary",
       },
       size: {
         default: "h-[44px] px-6",
         sm: "h-[48px] px-6",
         lg: "h-[56px] px-8 text-sm font-bold uppercase tracking-[2px]",
-        icon: "h-[32px] w-[40px] text-lg",
+        icon: "h-[32px] w-[40px] rounded-[12px_2px] text-lg",
       },
     },
     defaultVariants: {
