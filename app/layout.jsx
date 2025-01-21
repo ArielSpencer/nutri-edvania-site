@@ -1,6 +1,7 @@
 import { Lato } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -20,7 +21,7 @@ export default function RootLayout({ children }) {
         className={`${lato.variable} antialiased`}
       >
         <Header />
-        {children}
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
