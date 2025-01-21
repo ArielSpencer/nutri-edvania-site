@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 import { usePathname } from "next/navigation"
 import { IoMenu } from "react-icons/io5";
+import { DialogTitle } from "@radix-ui/react-dialog";
 
 const links = [
   {
@@ -39,6 +40,7 @@ const MobileNav = () => {
       <IoMenu className="text-[32px] text-accent" />
     </SheetTrigger>
     <SheetContent className="flex flex-col">
+      <DialogTitle className="sr-only">Menu de navegação</DialogTitle>
       <div className="mt-32 mb-40 text-center text-2xl">
         <Link href="/">
           <h1 className="text-4xl font-semibold text-accent">
