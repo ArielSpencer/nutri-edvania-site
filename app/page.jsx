@@ -1,3 +1,4 @@
+import AboutSection from "@/components/home/AboutSection";
 import BannerHome from "@/components/home/BannerHome";
 import ServicesSection from "@/components/home/ServicesSection";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <BannerHome />
       <ServicesSection />
+      <AboutSection />
     </div>
   )
 }
