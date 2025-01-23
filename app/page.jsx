@@ -1,8 +1,12 @@
 import BannerHome from "@/components/home/BannerHome";
+import ServicesSection from "@/components/home/ServicesSection";
 
 const Home = () => {
   return (
-    <BannerHome />
+    <div>
+      <BannerHome />
+      <ServicesSection />
+    </div>
   )
 }
 
