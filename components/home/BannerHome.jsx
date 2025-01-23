@@ -7,9 +7,9 @@ import PhotoBanner from "@/components/PhotoBanner";
 const BannerHome = () => {
   return (
     <section
-      className="h-[112vh] xl:h-full bg-cover bg-center bg-no-repeat relative text-primary m-0"
+      className="h-[96vh] xl:h-[64vh] bg-cover bg-center bg-no-repeat relative text-primary m-0"
       style={{
-        backgroundImage: `url("/assets/home/banner-home-edvania-soares.png")`,
+        backgroundImage: `url("/assets/home/banner-bg-home-edvania-soares.png")`,
       }}
     >
       <div className="container mx-auto" >
