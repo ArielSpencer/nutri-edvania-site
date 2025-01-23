@@ -2,18 +2,18 @@
 
 import { Button } from "@/components/ui/button";
 import { HiArrowSmallDown } from "react-icons/hi2";
-import Photo from "@/components/Photo";
+import PhotoBanner from "@/components/PhotoBanner";
 
 const BannerHome = () => {
   return (
     <section
-      className="h-[140vh] xl:h-[90vh] bg-cover bg-center bg-no-repeat relative text-primary"
+      className="h-[112vh] xl:h-full bg-cover bg-center bg-no-repeat relative text-primary m-0"
       style={{
         backgroundImage: `url("/assets/home/banner-home-edvania-soares.png")`,
       }}
     >
       <div className="container mx-auto" >
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between pt-8 pb-0 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-md uppercase">
               <h1>Nutri Edvânia Soares</h1>
@@ -44,9 +44,11 @@ const BannerHome = () => {
           </div>
 
           <div className="order-1 xl:order-none mb-8">
-            <Photo
+            <PhotoBanner
               src="/assets/home/edvania-soares-banner-photo.png"
               alt="Nutricionista Edvânia Soares"
+              width={592}
+              height={592}
             />
           </div>
 
