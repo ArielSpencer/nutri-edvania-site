@@ -1,5 +1,6 @@
 import AboutSection from "@/components/home/AboutSection";
 import BannerHome from "@/components/home/BannerHome";
+import BlogSection from "@/components/home/BlogSection";
 import MediaSection from "@/components/home/MediaSection";
 import ServicesSection from "@/components/home/ServicesSection";
 import YouTubeSection from "@/components/home/YouTubeSection";
@@ -12,6 +13,7 @@ const Home = () => {
       <AboutSection />
       <MediaSection />
       <YouTubeSection />
+      <BlogSection />
     </div>
   )
 }
