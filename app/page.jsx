@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import AboutSection from "@/components/home/AboutSection";
 import BannerHome from "@/components/home/BannerHome";
 import BlogSection from "@/components/home/BlogSection";
@@ -19,7 +18,6 @@ const Home = () => {
       <EbookSection />
       <BlogSection />
       <ContactSection />
-      <Footer />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
+import Footer from "@/components/Footer";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <PageTransition>{children}</PageTransition>
+        <Footer />
       </body>
     </html>
   );
