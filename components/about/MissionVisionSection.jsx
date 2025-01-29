@@ -16,7 +16,7 @@ const MissionVisionSection = () => {
         </div>
 
         <div className="md:w-1/2 relative">
-          <div className="rounded-lg overflow-hidden rounded-[230px_8px]">
+          <div className="overflow-hidden rounded-[230px_8px]">
             <Image src={MissionPhoto} alt="Missão Edvânia" className="object-cover w-full h-full" />
           </div>
         </div>
@@ -24,7 +24,7 @@ const MissionVisionSection = () => {
 
       <div className="flex flex-col md:flex-row items-center bg-background-light p-8 shadow-md rounded-[256px_16px]">
         <div className="md:w-1/2 relative">
-          <div className="rounded-lg overflow-hidden rounded-[230px_8px]">
+          <div className="overflow-hidden rounded-[230px_8px]">
             <Image src={ValuePhoto} alt="Valores Edvânia" className="object-cover w-full h-full" />
           </div>
         </div>
