@@ -1,3 +1,4 @@
+import Link from "next/link";
 import PhotoHighlight from "../PhotoHighlight";
 import { Button } from "../ui/button";
 
@@ -41,7 +42,9 @@ const AboutSection = () => {
               </p>
             </div>
 
-            <div className="flex flex-col xl:flex-row items-center gap-8">
+            <Link
+              href="/sobre-mim"
+              className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 variant="primary"
                 size="sm"
@@ -51,7 +54,7 @@ const AboutSection = () => {
                   Saiba Mais
                 </span>
               </Button>
-            </div>
+            </Link>
 
           </div>
         </div>
