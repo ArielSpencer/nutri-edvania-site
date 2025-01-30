@@ -47,35 +47,35 @@ const Footer = () => {
           <h3 className="text-xl font-bold text-background-light uppercase mb-4">Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#"
+              <a href="/"
                 className="hover:text-background-light hover:font-bold"
               >
                 Home
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="/sobre-mim"
                 className="hover:text-background-light hover:font-bold"
               >
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="/servicos"
                 className="hover:text-background-light hover:font-bold"
               >
                 Serviços
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="/contato"
                 className="hover:text-background-light hover:font-bold"
               >
                 Contato
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="/blog"
                 className="hover:text-background-light hover:font-bold"
               >
                 Blog
