@@ -1,5 +1,12 @@
+import Banner from "@/components/Banner";
+
 const Blog = () => {
-  return <div>blog page</div>
+  return <section>
+    <Banner
+      title="Blog"
+      description="Todos os posts"
+    />
+  </section>
 }
 
 export default Blog;
