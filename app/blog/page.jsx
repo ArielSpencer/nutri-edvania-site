@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 import Banner from '@/components/Banner';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
+import CategoriesBlog from '@/components/blog/CategoriesBlog';
 
 const Blog = () => {
   const postsDirectory = path.join(process.cwd(), 'app/posts');
@@ -25,12 +27,22 @@ const Blog = () => {
         title="Blog"
         description="Lorem ipsum dolor sit amet as, Imperdiet convallis aenean vehicula, turpis adipiscing maximus varius ante."
       />
-      <div className="container mx-auto px-4 py-8">
-        <div className="space-y-16">
+      <CategoriesBlog />
+      <div className="container mx-auto px-16 pt-8 pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           {posts.map((post, index) => (
             <div key={index}>
-              <h2 className="text-2xl font-bold mb-2">{post.title}</h2>
-              <p className="mb-4">{post.excerpt}</p>
+              <Image
+                src={`/assets/home/banner-bg-home-edvania-soares.png`}
+                alt={post.title}
+                priority
+                quality={100}
+                width={512}
+                height={512}
+                className="w-full rounded-[4px] object-contain mb-4"
+              />
+              <h2 className="text-2xl font-bold">{post.title}</h2>
+              <p className="py-4 text-justify pr-8">{post.excerpt}</p>
               <Link
                 href={`/blog/${post.slug}`}
               >
