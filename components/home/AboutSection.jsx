@@ -26,7 +26,7 @@ const AboutSection = () => {
             <span className="text-secondary text-md uppercase">
               <h1>Sobre Edvânia Soares</h1>
             </span>
-            <h2 className="text-4xl font-black uppercase mb-4">
+            <h2 className="text-4xl font-black uppercase mb-4 text-title">
               Nullam sodales to velit vel turpis non velit
             </h2>
             <div className="flex flex-col gap-2">

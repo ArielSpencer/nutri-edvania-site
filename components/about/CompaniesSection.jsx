@@ -11,7 +11,7 @@ const CompaniesSection = () => {
   return (
     <section className="bg-background/50 py-16 text-center">
       <h2 className="text-xl text-secondary uppercase">Palestras & Eventos</h2>
-      <h3 className="text-2xl font-bold my-4">Empresas que já confiaram em nosso trabalho</h3>
+      <h3 className="text-2xl text-title font-bold my-4">Empresas que já confiaram em nosso trabalho</h3>
       <p className="text-writing text-lg mb-8 max-w-2xl mx-auto">
         Levando através de palestras e parcerias conhecimento e impactando a vida de muitos profissionais.
       </p>

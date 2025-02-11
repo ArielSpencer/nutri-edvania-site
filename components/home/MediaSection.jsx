@@ -36,7 +36,7 @@ const MediaSection = () => {
         <h2 className="text-secondary text-md uppercase">
           Midias e Parcerias
         </h2>
-        <p className="text-4xl font-black uppercase mb-4">
+        <p className="text-4xl font-black uppercase mb-4 text-title">
           Lorem Ipsum
         </p>
       </div>

@@ -24,7 +24,8 @@ const config = {
 			colors: {
 				primary: "#FFFFFF", // White
 				secondary: "#A57E53", // Camel
-				writing: "#000000", // Black
+				title: "#5C4033", // Coffee Brown
+				writing: "#6D6D6D", // Dim Gray
 				accent: {
 					DEFAULT: "#3B7644", // Fern Green
 					hover: "#E2CBAC", // Sand

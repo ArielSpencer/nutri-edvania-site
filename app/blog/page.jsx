@@ -41,7 +41,7 @@ const Blog = () => {
                 height={512}
                 className="w-full rounded-[4px] object-contain mb-4"
               />
-              <h2 className="text-2xl font-bold">{post.title}</h2>
+              <h2 className="text-2xl font-bold text-title">{post.title}</h2>
               <p className="py-4 text-justify pr-8">{post.excerpt}</p>
               <Link
                 href={`/blog/${post.slug}`}

@@ -32,7 +32,7 @@ const ServicesSection = () => {
     <section className="bg-background-light text-primary text-writing flex flex-col justify-center items-center py-16">
       <div className="container w-[50vw] text-center mx-auto mb-8">
         <h2 className="text-xl text-secondary uppercase mb-4">Serviços</h2>
-        <p className="text-2xl font-bold">
+        <p className="text-2xl font-bold text-title">
           Soluções estratégicas em nutrição para impulsionar empresas e capacitar profissionais com praticidade e resultados reais.
         </p>
       </div>

@@ -27,7 +27,7 @@ const ChooseUsSection = () => {
 
       <div className="mb-12 uppercase">
         <p className="text-secondary font-semibold">Porque nos escolher?</p>
-        <h2 className="text-3xl text-black font-bold">{currentChoose.title}</h2>
+        <h2 className="text-3xl text-title font-bold">{currentChoose.title}</h2>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 lg:gap-20 xl:gap-0 items-center w-full xl:w-[80vw]">

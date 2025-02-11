@@ -25,7 +25,7 @@ const StorySection = () => {
             <span className="text-secondary text-md uppercase">
               <h1>Sobre Edvânia Soares</h1>
             </span>
-            <h2 className="text-4xl font-black uppercase mb-4">
+            <h2 className="text-4xl text-title font-black uppercase mb-4">
               Nullam sodales to velit vel turpis non velit
             </h2>
             <div className="flex flex-col pb-8 gap-2">

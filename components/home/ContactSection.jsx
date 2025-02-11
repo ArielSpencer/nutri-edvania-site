@@ -72,7 +72,7 @@ const ContactSection = () => {
     <section className="flex flex-col lg:flex-row w-full min-h-[600px] bg-background text-writing">
 
       <div className="flex-1 bg-background-highlight p-8 lg:p-16 flex flex-col justify-center">
-        <h2 className="text-4xl text-secondary font-black uppercase mb-4">Entre em Contato</h2>
+        <h2 className="text-4xl text-title font-black uppercase mb-4">Entre em Contato</h2>
         <p className="text-xl">
           Preencha o formulário abaixo e entraremos em contato o mais breve possível.
         </p>

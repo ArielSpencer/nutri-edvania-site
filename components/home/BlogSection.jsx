@@ -27,7 +27,7 @@ const BlogSection = () => {
     <section className="bg-background text-primary text-writing flex flex-col justify-center items-center py-16 gap-12">
       <div className="container w-[50vw] text-center mx-auto">
         <h2 className="text-xl text-secondary uppercase mb-4">Últimos Posts do Blog</h2>
-        <p className="text-2xl font-bold">
+        <p className="text-2xl font-bold text-title">
           Dicas e informações úteis para cuidar da sua saúde e bem-estar.
         </p>
       </div>
