@@ -10,17 +10,23 @@ const Footer = () => {
     <footer className="bg-secondary p-8 text-primary">
       <div className="container grid grid-cols-1 md:grid-cols-5 gap-8 pt-8">
 
-        <div className="md:col-span-3">
-          <h2 className="text-xl font-bold text-background-light uppercase mb-4">Nutri Edvânia Soares</h2>
+        <div className="md:col-span-3 text-background-light">
+          <h2 className="text-xl font-bold uppercase mb-4">Nutri Edvânia Soares</h2>
           <p className="mb-4 w-3/5 lg:w-4/5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut obcaecati, ex animi asperiores. Quasi expedita officiis eos, illo alias iure.
+          CEO da Estima Nutrição, uma empresa que há 15 anos se dedica a promover saúde com excelência. Nossa clínica já atendeu mais de 180 mil pacientes, sempre com um olhar humanizado e estratégias personalizadas para cada indivíduo.
+          <br /><br />
+          Além do atendimento clínico, atuo como palestrante e mentora, ajudando nutricionistas a estruturarem consultórios de sucesso e a fidelizarem seus pacientes.
           </p>
-          <div className="text-2xl flex space-x-4 text-button">
+          <div className="uppercase text-md font-bold tracking-widest mb-2 flex flex-row items-center space-x-4">
+            <h3
+              >
+              Conheça mais sobre mim:
+            </h3>
             <a
               href="https://www.instagram.com/nutriedvaniasoares/"
               target="_blank"
               aria-label="Instagram"
-              className="hover:text-background-light"
+              className="text-xl hover:text-background hover:font-bold"
             >
               <FaInstagram />
             </a>
@@ -28,7 +34,7 @@ const Footer = () => {
               href="https://www.youtube.com/@NutriEdvaniaSoares"
               target="_blank"
               aria-label="YouTube"
-              className="hover:text-background-light"
+              className="text-xl hover:text-background hover:font-bold"
             >
               <FaYoutube />
             </a>
@@ -36,7 +42,7 @@ const Footer = () => {
               href="https://wa.me/5511997239915"
               target="_blank"
               aria-label="WhatsApp"
-              className="hover:text-background-light"
+              className="text-xl hover:text-background hover:font-bold"
             >
               <FaWhatsapp />
             </a>
