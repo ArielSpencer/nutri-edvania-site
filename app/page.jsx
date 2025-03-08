@@ -12,9 +12,9 @@ const Home = () => {
       <BannerHome />
       <ServicesSection />
       <AboutSection />
-      <MediaSection />
-      <EbookSection />
-      <BlogSection />
+      {/* <MediaSection /> */}
+      {/* <EbookSection /> */}
+      {/* <BlogSection /> */}
       <ContactSection />
     </div>
   )

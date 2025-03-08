@@ -18,7 +18,7 @@ const Services = () => {
       buttonText="Solicite uma Proposta"
     />
     <ContactSection />
-    <ChooseUsSection />
+    {/* <ChooseUsSection /> */}
     <BlogSection />
   </div>
 }
