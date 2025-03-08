@@ -14,27 +14,27 @@ const ServicesSection = () => {
     {
       image: "/assets/services/edvania-palestra.png",
       title: "Atendimento Nutricional Personalizado",
-      link: "/atendimento-nutricional",
+      link: "/servicos/atendimento-nutricional",
     },
     {
       image: "/assets/services/edvania-palestra.png",
       title: "Palestras e Programas de Saúde para Empresas",
-      link: "/palestras-e-programas-de-saude",
+      link: "/servicos/palestras-e-programas-de-saude",
     },
     {
       image: "/assets/services/edvania-palestra.png",
       title: "Programas de Saúde e Bem-Estar",
-      link: "/programas-de-saude-e-bem-estar",
+      link: "//servicosprogramas-de-saude-e-bem-estar",
     },
     {
       image: "/assets/services/edvania-palestra.png",
       title: "Mentoria para Nutricionistas",
-      link: "/mentoria-para-nutricionistas",
+      link: "/servicos/mentoria-para-nutricionistas",
     },
     {
       image: "/assets/services/edvania-palestra.png",
       title: "E-books e Materiais Educativos",
-      link: "/e-books-e-materiais-educativos",
+      link: "/e-books",
     },
   ];
 
