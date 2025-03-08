@@ -24,27 +24,24 @@ const AboutSection = () => {
 
           <div className="text-center xl:text-left w-[80vw] xl:w-full text-justify">
             <span className="text-secondary text-md uppercase">
-              <h1>Sobre Edvânia Soares</h1>
+              <h1>Sobre</h1>
             </span>
             <h2 className="text-4xl font-black uppercase mb-4 text-title">
-              Nullam sodales to velit vel turpis non velit
+              Edvânia Soares
             </h2>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere distinctio placeat quaerat impedit ipsam numquam, accusantium ullam rem! Qui labore quibusdam cupiditate culpa at eum, aliquid minus consectetur saepe excepturi!
-              </p>
-              <p>
-                Nullam sodales velit vel turpis faucibus, accusantium ullam rem! Qui labore quibusdam cupiditate culpa at eum, non sagittis tortor scelerisque.
-              </p>
-
-              <p className="border-l-2 border-writing pl-4 mt-4 mb-8 font-bold w-[90%]">
-                "Nullam as sodales vel turpis, non sagittis accusantium tortor scelerisque ullam rem at eum vel." - Revista Nutri"
+              Nutricionista há 20 anos e apaixonada por transformar vidas por meio da nutrição. Acredito que saúde vai muito além de dietas e números na balança — é sobre viver com mais energia, felicidade e bem-estar.
+              <br/>
+              <span className="mt-4 block">
+              E é com esse entusiasmo que venho construindo minha trajetória, ajudando milhares de pessoas a alcançarem seus objetivos de forma leve e sustentável.
+              </span>
               </p>
             </div>
 
             <Link
               href="/sobre-mim"
-              className="flex flex-col xl:flex-row items-center gap-8">
+              className="flex flex-col mt-8 xl:flex-row items-center gap-8">
               <Button
                 variant="primary"
                 size="sm"
