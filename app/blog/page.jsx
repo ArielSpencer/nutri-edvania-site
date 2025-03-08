@@ -25,7 +25,7 @@ const Blog = () => {
     <section>
       <Banner
         title="Blog"
-        description="Lorem ipsum dolor sit amet as, Imperdiet convallis aenean vehicula, turpis adipiscing maximus varius ante."
+        description="Descubra artigos e estratégias focadas em nutrição e bem-estar para empresas, com soluções práticas para melhorar a saúde e a produtividade no ambiente corporativo."
       />
       <CategoriesBlog />
       <div className="container mx-auto px-16 pt-8 pb-20">
